@@ -132,24 +132,17 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="text-center">
                     <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-map-marker-alt text-blue-600"></i>
-                    </div>
-                    <h3 class="text-lg font-medium text-gray-900">Address</h3>
-                    <p class="mt-2 text-gray-600">123 Job Street<br>Business District, 12345</p>
-                </div>
-                <div class="text-center">
-                    <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fas fa-phone text-blue-600"></i>
                     </div>
                     <h3 class="text-lg font-medium text-gray-900">Phone</h3>
-                    <p class="mt-2 text-gray-600">+1 (555) 123-4567</p>
+                    <p class="mt-2 text-gray-600">+91 9876543210</p>
                 </div>
                 <div class="text-center">
                     <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fas fa-envelope text-blue-600"></i>
                     </div>
                     <h3 class="text-lg font-medium text-gray-900">Email</h3>
-                    <p class="mt-2 text-gray-600">contact@jobportal.com</p>
+                    <p class="mt-2 text-gray-600">jobportal@gmail.com</p>
                 </div>
             </div>
         </div>

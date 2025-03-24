@@ -90,7 +90,17 @@ session_start();
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div class="text-center">
                     <div class="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4"></div>
-                    <h3 class="text-xl font-semibold">John Doe</h3>
+                    <h3 class="text-xl font-semibold">Siddharth Methiya</h3>
+                    <p class="text-gray-600">CEO & Founder</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4"></div>
+                    <h3 class="text-xl font-semibold">Darshil Chhayani</h3>
+                    <p class="text-gray-600">CEO & Founder</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4"></div>
+                    <h3 class="text-xl font-semibold">Shrushti Patel</h3>
                     <p class="text-gray-600">CEO & Founder</p>
                 </div>
                 <!-- Add more team members as needed -->

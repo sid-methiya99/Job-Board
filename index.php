@@ -221,7 +221,6 @@ $featured_companies = $stmt->fetchAll();
                     <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
                     <ul class="space-y-2">
                         <li><a href="jobs/browse.php" class="text-gray-400 hover:text-white">Browse Jobs</a></li>
-                        <li><a href="companies/browse.php" class="text-gray-400 hover:text-white">Companies</a></li>
                         <li><a href="about.php" class="text-gray-400 hover:text-white">About Us</a></li>
                         <li><a href="contact.php" class="text-gray-400 hover:text-white">Contact</a></li>
                     </ul>
