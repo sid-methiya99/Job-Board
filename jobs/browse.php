@@ -157,7 +157,16 @@ $categories = ['Technology', 'Marketing', 'Sales', 'Design', 'Engineering', 'Fin
                     <div class="flex items-start justify-between">
                         <div class="flex items-center">
                             <?php if (!empty($job['company_logo'])): ?>
-                                <img src="../uploads/logos/<?php echo htmlspecialchars($job['company_logo']); ?>" 
+                                <?php 
+                                    // Get the base URL dynamically
+                                    $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://';
+                                    $host = $_SERVER['HTTP_HOST'];
+                                    $baseUrl = $protocol . $host;
+                                    $logoPath = $baseUrl . "uploads/logos/" . htmlspecialchars($job['company_logo']);
+                                    // Debug output
+                                    error_log("Logo path: " . $logoPath);
+                                ?>
+                                <img src="<?php echo $logoPath; ?>" 
                                      alt="<?php echo htmlspecialchars($job['company_name']); ?>" 
                                      class="w-16 h-16 object-contain rounded">
                             <?php else: ?>
