@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$dbname = 'job_portal';
+$dbname = 'jobportal';
 $username = 'sid';
 $password = '1234';
 
